@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perception of Time by Age</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Perception of Time</h1>
+    <div id="age-list">
+        <div class="age-row row-2">
+            <div class="age-item age-item-10" id="age-10">
+                <span>Teens</span>
+                <div class="clock" id="clock-10">
+                    <div class="hand" id="hand-10"></div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar progress-bar-10" id="progress-10"></div>
+                </div>
+            </div>
+            <div class="age-item age-item-20" id="age-20">
+                <span>20s</span>
+                <div class="clock" id="clock-20">
+                    <div class="hand" id="hand-20"></div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar progress-bar-20" id="progress-20"></div>
+                </div>
+            </div>
+        </div>
+        <div class="age-row row-3">
+            <div class="age-item age-item-40" id="age-40">
+                <span>30s - 40s</span>
+                <div class="clock" id="clock-40">
+                    <div class="hand" id="hand-40"></div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar progress-bar-40" id="progress-40"></div>
+                </div>
+            </div>
+            <div class="age-item age-item-60" id="age-60">
+                <span>50s - 60s</span>
+                <div class="clock" id="clock-60">
+                    <div class="hand" id="hand-60"></div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar progress-bar-60" id="progress-60"></div>
+                </div>
+            </div>
+            <div class="age-item age-item-70" id="age-70">
+                <span>70 and above</span>
+                <div class="clock" id="clock-70">
+                    <div class="hand" id="hand-70"></div>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar progress-bar-70" id="progress-70"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="controls" aria-label="Animation controls">
+        <button id="start-button" class="button start-button" type="button" aria-label="Start animation">
+            <span>Start</span>
+        </button>
+        <button id="reset-button" class="button reset-button" type="button" aria-label="Reset animation">
+            <span>Reset</span>
+        </button>
+    </div>
+    <p class="explanation">
+        Janet's Law<br>
+        Psychological time passes faster as age increases.<br>
+        Each clock demonstrates the perceived speed of time for each age group.
+    </p>
+    <script src="script.js" defer></script>
+</body>
+</html>
